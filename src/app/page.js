@@ -1,9 +1,9 @@
-import NewNav from './component/navbar';
+import Navbar from './component/navbar';
 
 export default function Home() {
   return (
-    <div className="bg-slate-200">
-      <NewNav />
+    <div className="bg-white">
+      <Navbar />
     </div>
   );
 }
