@@ -18,10 +18,12 @@ const Navbar = () => {
         <p className="text-[#525560]">Accepting new clients</p>
       </div>
       <div>
-        <ul className="flex flex-row list-none justify-center text-[#525560] text-base">
+        <ul className="flex flex-row list-none justify-center text-[#525560] text-base ">
           {navLinks.map((link) => (
             <li key={link.id} className="mx-2">
-              <a href={link.link}>{link.name}</a>
+              <a className="hover:text-[#000] cursor-pointer" href={link.link}>
+                {link.name}
+              </a>
             </li>
           ))}
         </ul>
