@@ -1,7 +1,7 @@
-import { navLinks } from '@/constants';
 import React from 'react';
 import Button from '../button';
 import '../../../app/globals.css';
+import { navLinks } from '../../../app/constants';
 
 const Navbar = () => {
   return (
@@ -29,7 +29,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="cursor-pointer">
-        <Button />
+        <Button label="Get in touch" />
       </div>
     </div>
   );

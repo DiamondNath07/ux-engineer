@@ -1,3 +1,4 @@
+import CardStacks from './component/cardStacks';
 import Hero from './component/Hero';
 import Navbar from './component/navbar';
 
@@ -6,6 +7,8 @@ export default function Home() {
     <div className="bg-white">
       <Navbar />
       <Hero />
+      <CardStacks />
     </div>
   );
+  x;
 }
