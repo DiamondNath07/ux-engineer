@@ -39,7 +39,36 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="w-[50%]">right</div>
+          <div className="w-[50%]">
+            <div className="flex items-start justify-between">
+              <div>
+                <h3 className="text-base text-black font-medium">
+                  Case studies
+                </h3>
+                <ul className="flex flex-col mt-[2%] font-normal leading-normal text-sm">
+                  <li>Talstrike</li>
+                  <li>SwiftPoint</li>
+                  <li>Vitality Org</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="text-base text-black font-medium">
+                  Social links
+                </h3>
+                <ul className="flex flex-col mt-[2%] font-normal leading-normal text-sm">
+                  <li>Linkedin</li>
+                  <li>Behance</li>
+                  <li>Twitter</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="text-base text-black font-medium">Contact</h3>
+                <ul className="flex flex-col mt-[2%] font-normal leading-normal text-sm">
+                  <li>diamondnathaniel2@gmail.com</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
