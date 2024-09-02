@@ -34,6 +34,7 @@ const Footer = () => {
                 <Button
                   label="Get in touch"
                   onClick={() => console.log('great')}
+                  width="w-[100%]"
                 />
               </div>
             </div>
