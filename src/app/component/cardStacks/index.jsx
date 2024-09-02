@@ -6,7 +6,7 @@ import Button from '../button';
 
 const CardStacks = () => {
   return (
-    <div className="bg-white w-full px-[15%] pt-[10%]">
+    <div className="bg-white w-full px-[15%] pt-[7%]">
       <div className="flex flex-col gap-8 ">
         {cardContent.map((item, index) => (
           <div
