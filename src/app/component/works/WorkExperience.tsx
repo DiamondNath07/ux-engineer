@@ -5,7 +5,7 @@ import { workRecordData } from '../../constants';
 
 const WorkExperience = () => {
   return (
-    <div className="bg-black pt-[7%] px-[15%] mt-[3%]">
+    <div className="bg-black pt-[7%] px-[15%] mt-[3%] pb-[5%]">
       <CustomHeader bgCol="white" title="My Experience" color="#fff" />
       <div className="flex gap-2">
         <div className="w-[70%]">
