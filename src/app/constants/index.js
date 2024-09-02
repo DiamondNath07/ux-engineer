@@ -42,3 +42,45 @@ export const cardContent = [
     link: '/casestudies/vitality',
   },
 ];
+
+export const workRecordData = [
+  {
+    id: 1,
+    logo: './images/Icon1.png',
+    name: 'QuickTeller',
+    position: 'Interaction Designer',
+    role1: '☑️ Designed mobile payments flow for quick bill settlement',
+    role2:
+      '☑️ Designed merchant dashboard for co-businesses integrating Quickteller services for facilitating payments',
+  },
+  {
+    id: 2,
+    logo: './images/Icon2.png',
+    name: 'Wollette',
+    position: 'Product Designer',
+    role1:
+      '☑️ Designed a smart payment medium platform for cheaper transactions between clients and customers.',
+    role2:
+      '☑️ Implemented a motion infographic design for illustrating how to use the payment platform.',
+  },
+  {
+    id: 3,
+    logo: './images/Icon3.png',
+    name: 'SwiftPoint',
+    position: 'Senior Product Designer',
+    role1:
+      '☑️ Designed a seamless platform for bills payment and an intuitive user interface for currency exchange.',
+    role2:
+      '☑️ Designed a fully responsive application for users and a scalable design system following the brand theme.',
+  },
+  {
+    id: 4,
+    logo: './images/Icon4.png',
+    name: 'Talstrike',
+    position: 'Senior Product Designer',
+    role1:
+      '☑️ Created business model through a UX case-study with business stakeholder and created business roadmap for design implementation.',
+    role2:
+      '☑️ Designed a fully responsive application for users and a scalable design system following the brand theme.',
+  },
+];
