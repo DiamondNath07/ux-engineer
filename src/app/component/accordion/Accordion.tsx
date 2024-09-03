@@ -43,12 +43,12 @@ const Accordion = () => {
               borderBottom: '1px solid #ccc',
             }}
           >
-            <span>{item.question}</span>
+            <span className="typing-text">{item.question}</span>
             <span>{openIndex === index ? <ArrowDown /> : <ArrowRight />}</span>
           </div>
           {openIndex === index && (
             <div
-              className="text-base"
+              className="text-base "
               style={{ padding: '10px', backgroundColor: '#fff' }}
             >
               {item.answer}

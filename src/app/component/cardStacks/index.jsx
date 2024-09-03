@@ -13,13 +13,13 @@ const CardStacks = () => {
             key={item.id}
             className={`${
               index === 0
-                ? 'bg-[#F7F8FF]'
+                ? 'bg-[#F7F8FF] '
                 : index === 1
-                ? 'bg-[#E0F4FD]'
+                ? 'bg-[#E0F4FD] pt-4'
                 : index === 2
-                ? 'bg-[#ECF0FC]'
-                : 'bg-[#F3FAFD]'
-            } px-[5%] py-[5%] rounded-3xl`}
+                ? 'bg-[#ECF0FC] pt-4'
+                : 'bg-[#F3FAFD] pt-4'
+            } px-[5%] py-[5%] rounded-3xl sticky top-10 `}
           >
             <h1 className="text-4xl font-medium">{item.companyName}</h1>
             <div className="flex justify-between items-center">
