@@ -11,15 +11,20 @@ const CardStacks = () => {
         {cardContent.map((item, index) => (
           <div
             key={item.id}
+            style={
+              {
+                // boxShadow: '0px 0px 4px rgba(0, 0, 0, 0.1)',
+              }
+            }
             className={`${
               index === 0
-                ? 'bg-[#F7F8FF] '
+                ? 'bg-[#F7F8FF] shadow-md'
                 : index === 1
-                ? 'bg-[#E0F4FD] pt-4'
+                ? 'bg-[#E0F4FD] shadow-md m'
                 : index === 2
-                ? 'bg-[#ECF0FC] pt-4'
-                : 'bg-[#F3FAFD] pt-4'
-            } px-[5%] py-[5%] rounded-3xl sticky top-10 `}
+                ? 'bg-[#ECF0FC] shadow-md'
+                : 'bg-[#F3FAFD] shadow-md'
+            } px-[5%] py-[5%] rounded-3xl sticky top-10  `}
           >
             <h1 className="text-4xl font-medium">{item.companyName}</h1>
             <div className="flex justify-between items-center">

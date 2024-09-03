@@ -43,7 +43,7 @@ const Accordion = () => {
               borderBottom: '1px solid #ccc',
             }}
           >
-            <span className="typing-text">{item.question}</span>
+            <span>{item.question}</span>
             <span>{openIndex === index ? <ArrowDown /> : <ArrowRight />}</span>
           </div>
           {openIndex === index && (

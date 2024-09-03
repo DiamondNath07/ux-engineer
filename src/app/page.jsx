@@ -8,7 +8,7 @@ import WorkExperience from './component/works/WorkExperience';
 
 export default function Home() {
   return (
-    <div className="bg-white">
+    <div className="bg-white scrollbar-hide ">
       <Navbar />
       <Hero />
       <CardStacks />

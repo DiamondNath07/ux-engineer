@@ -14,23 +14,24 @@ export const cardContent = [
     image: './images/company1.png',
     link: '/casestudies/wollette',
   },
+
   {
     id: 2,
-    companyName: 'Swiftpoint',
-    project: 'Fintech bill payment application',
-    description:
-      'Underpinned by Open Banking technology and robust consumer authentication, our solution allows merchants to securely accept payments, minimize fraud, and reduce processing fees.It also enables consumers to make secure payments both online and offline through our innovative payment app. We are transforming the payment experience for merchants and consumers with our cutting-edge payment platform.Powered by Open Banking technology and robust consumer authentication, our solution empowers merchants to securely accept payments while minimizing fraud and reducing processing fees.For consumers, our innovative payment app enables secure transactions both online and offline, offering convenience and peace of mind.We are revolutionizing the payment experience for both merchants and consumers through our cutting-edge payment platform.',
-    image: './images/company2.png',
-    link: '/casestudies/swiftpoint',
-  },
-  {
-    id: 3,
     companyName: 'Talstrike',
     project: 'Sport platform application',
     description:
       'Underpinned by Open Banking technology and robust consumer authentication, our solution allows merchants to securely accept payments, minimize fraud, and reduce processing fees.It also enables consumers to make secure payments both online and offline through our innovative payment app. We are transforming the payment experience for merchants and consumers with our cutting-edge payment platform.Powered by Open Banking technology and robust consumer authentication, our solution empowers merchants to securely accept payments while minimizing fraud and reducing processing fees.For consumers, our innovative payment app enables secure transactions both online and offline, offering convenience and peace of mind.We are revolutionizing the payment experience for both merchants and consumers through our cutting-edge payment platform.',
     image: './images/company3.png',
     link: '/casestudies/talstrike',
+  },
+  {
+    id: 3,
+    companyName: 'Swiftpoint',
+    project: 'Fintech bill payment application',
+    description:
+      'Underpinned by Open Banking technology and robust consumer authentication, our solution allows merchants to securely accept payments, minimize fraud, and reduce processing fees.It also enables consumers to make secure payments both online and offline through our innovative payment app. We are transforming the payment experience for merchants and consumers with our cutting-edge payment platform.Powered by Open Banking technology and robust consumer authentication, our solution empowers merchants to securely accept payments while minimizing fraud and reducing processing fees.For consumers, our innovative payment app enables secure transactions both online and offline, offering convenience and peace of mind.We are revolutionizing the payment experience for both merchants and consumers through our cutting-edge payment platform.',
+    image: './images/company2.png',
+    link: '/casestudies/swiftpoint',
   },
   {
     id: 4,
