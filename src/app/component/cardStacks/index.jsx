@@ -11,11 +11,6 @@ const CardStacks = () => {
         {cardContent.map((item, index) => (
           <div
             key={item.id}
-            style={
-              {
-                // boxShadow: '0px 0px 4px rgba(0, 0, 0, 0.1)',
-              }
-            }
             className={`${
               index === 0
                 ? 'bg-[#F7F8FF] shadow-md'
