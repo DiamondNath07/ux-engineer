@@ -19,7 +19,7 @@ const CardStacks = () => {
                 : index === 2
                 ? 'bg-[#ECF0FC] shadow-md'
                 : 'bg-[#F3FAFD] shadow-md'
-            } px-[5%] py-[5%] rounded-3xl sticky md:top-10 top-96  `}
+            } px-[5%] py-[5%] md:rounded-3xl rounded-xl sticky md:top-10 top-[30%]  `}
           >
             <h1 className="text-xl md:text-4xl font-medium">
               {item.companyName}
@@ -46,6 +46,7 @@ const CardStacks = () => {
                     label="View case study"
                     text="sm"
                     px="2"
+                    py="3"
                     onClick={() => console.log('clicked now')}
                   />
                 </div>
