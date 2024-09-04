@@ -3,7 +3,7 @@ import DotIcon from '../../../../public/customIcon/DotIcon';
 
 const StatsData = () => {
   return (
-    <div className="mt-[3%]">
+    <div className="md:mt-[3%] mt-[7%]">
       <div className=" grid grid-cols-2	truncate gap-4 mt-4 md:flex  md:flex-wrap md:items-center md:gap-4   md:max-w-[70%]">
         <div className="flex items-center gap-2">
           <DotIcon />

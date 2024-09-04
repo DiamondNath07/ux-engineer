@@ -6,7 +6,7 @@ import StatsData from './StatsData';
 
 const Statistics = () => {
   return (
-    <div className="bg-black pt-[7%] px-[15%] mt-[3%] pb-[5%]">
+    <div className="bg-black pt-[7%] px-[15%] mt-[7%] md:mt-[3%] pb-[10%] md:pb-[5%]">
       <CustomHeader bgCol="white" title="my statistics" color="#fff" />
       <div className="flex flex-col md:flex-row gap-2">
         <div className="w-[100%] md:w-[70%]">

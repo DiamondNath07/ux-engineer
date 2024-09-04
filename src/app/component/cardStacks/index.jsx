@@ -13,13 +13,13 @@ const CardStacks = () => {
             key={item.id}
             className={`${
               index === 0
-                ? 'bg-[#F7F8FF] shadow-md'
+                ? 'bg-[#F7F8FF] shadow-md '
                 : index === 1
-                ? 'bg-[#E0F4FD] shadow-md m'
+                ? 'bg-[#E0F4FD] shadow-md  '
                 : index === 2
                 ? 'bg-[#ECF0FC] shadow-md'
                 : 'bg-[#F3FAFD] shadow-md'
-            } px-[5%] py-[5%] md:rounded-3xl rounded-xl sticky md:top-10 top-[30%]  `}
+            } px-[5%] py-[5%] md:rounded-3xl rounded-xl sticky md:top-10 top-[20%]  `}
           >
             <h1 className="text-xl md:text-4xl font-medium">
               {item.companyName}
