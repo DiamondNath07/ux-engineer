@@ -29,7 +29,7 @@ const Accordion = () => {
   ];
 
   return (
-    <div className="w-[80%] mt-[5%] text-[#717171] text-xl">
+    <div className="md:w-[80%] w-[100%] mt-[5%] text-[#717171] text-base md:text-xl">
       {questions.map((item, index) => (
         <div key={index} className="mt-2 py-[2%] bg-white">
           <div
