@@ -45,8 +45,8 @@ const CardStacks = () => {
                   <Button
                     label="View case study"
                     text="sm"
-                    px="2"
-                    py="3"
+                    px={2}
+                    py={3}
                     onClick={() => console.log('clicked now')}
                   />
                 </div>

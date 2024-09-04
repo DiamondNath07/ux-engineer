@@ -1,14 +1,7 @@
 'use client';
 import React from 'react';
 
-const Button = ({
-  label,
-  onClick,
-  width,
-  text = 'base',
-  px = '8',
-  py = '3',
-}) => {
+const Button = ({ label, onClick, width, text = 'base', px = 8, py = 3 }) => {
   return (
     <button
       onClick={onClick}
