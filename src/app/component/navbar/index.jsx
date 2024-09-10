@@ -5,12 +5,24 @@ import Button from '../button';
 import '../../../app/globals.css';
 import { navLinks } from '../../../app/constants';
 import Image from 'next/image';
+import { useRouter, usePathname } from 'next/navigation';
 
-const Navbar = () => {
+const Navbar = ({ borderColor = '#929292' }) => {
+  const router = useRouter();
+  const pathname = usePathname();
+
   const [showModal, setShowModal] = useState(false);
   return (
-    <div className="bg-white relative border-b-[1px] w-full border-[#929292] h-[87px] flex items-center justify-between md:px-[15%] px-[10%]">
-      <div className="flex flex-row md:gap-3 gap-1">
+    <div
+      className="bg-white relative border-b-[1px] w-full  h-[87px] flex items-center justify-between md:px-[15%] px-[10%]"
+      style={{
+        borderColor: borderColor,
+      }}
+    >
+      <div
+        className="flex flex-row md:gap-3 gap-1 cursor-pointer"
+        onClick={() => router.push('/')}
+      >
         <img src={'./images/myLogo.png'} alt="logo" width={25} height={25} />
         <img
           src={'./images/alertImg.png'}
@@ -25,7 +37,14 @@ const Navbar = () => {
         <ul className="flex flex-row list-none justify-center text-[#525560] text-base ">
           {navLinks.map((link) => (
             <li key={link.id} className="mx-2">
-              <a className="hover:text-[#000] cursor-pointer" href={link.link}>
+              <a
+                className={`hover:text-[#000] cursor-pointer ${
+                  pathname === link.link
+                    ? 'font-semibold text-[#27282b]'
+                    : 'text-[#525560]'
+                }`}
+                href={link.link}
+              >
                 {link.name}
               </a>
             </li>

@@ -85,3 +85,16 @@ export const workRecordData = [
       '☑️ Designed a fully responsive application for users and a scalable design system following the brand theme.',
   },
 ];
+
+export const imageSlider = [
+  './images/slide1.png',
+  './images/slide2.png',
+  './images/slide3.png',
+  './images/slide4.png',
+];
+export const cardSlider = [
+  './images/cardOne.png',
+  './images/cardTwo.png',
+  './images/cardThree.png',
+  './images/cardFour.png',
+];
