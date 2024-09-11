@@ -3,8 +3,23 @@
 import { cardContent } from '../../../app/constants';
 import React from 'react';
 import Button from '../button';
+import { useRouter } from 'next/navigation';
 
 const CardStacks = () => {
+  const router = useRouter();
+
+  const handleCaseStudy = (index) => {
+    if (index === 1) {
+      router.push(
+        'https://www.figma.com/deck/SBpZq3x7SQfQiw9iSTvgx1/Talstrike-case-study-presentation?node-id=1-9674&node-type=slide&t=pnig65xOR9ug5LbA-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1'
+      );
+    } else if (index === 2) {
+      router.push(
+        'https://www.figma.com/deck/SBpZq3x7SQfQiw9iSTvgx1/Talstrike-case-study-presentation?node-id=1-9674&node-type=slide&t=pnig65xOR9ug5LbA-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1'
+      );
+    }
+  };
+
   return (
     <div className="bg-white  w-full px-[10%] md:px-[15%] pt-[15%] md:pt-[7%] ">
       <div className="flex flex-col gap-8 ">
@@ -35,7 +50,7 @@ const CardStacks = () => {
                 <div className="mt-4 hidden md:block">
                   <Button
                     label="View case study"
-                    onClick={() => console.log('clicked now')}
+                    onClick={(index) => handleCaseStudy(index)}
                   />
                 </div>
               </div>
@@ -47,7 +62,7 @@ const CardStacks = () => {
                     text="sm"
                     px={2}
                     py={3}
-                    onClick={() => console.log('clicked now')}
+                    onClick={(index) => handleCaseStudy(index)}
                   />
                 </div>
               </div>
