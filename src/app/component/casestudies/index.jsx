@@ -1,4 +1,5 @@
 import React from 'react';
+import CaseStudyCard from '../../component/casestudies/CaseStudyCard';
 
 const SelectSection = () => {
   return (
@@ -13,6 +14,9 @@ const SelectSection = () => {
         in a structured, page-flipping format, making the experience more
         immersive and easy to follow.
       </p>
+      <div>
+        <CaseStudyCard />
+      </div>
     </div>
   );
 };

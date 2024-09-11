@@ -98,3 +98,55 @@ export const cardSlider = [
   './images/cardThree.png',
   './images/cardFour.png',
 ];
+
+export const projectCards = [
+  {
+    id: 1,
+    images: '/images/cardThree.png',
+    company: 'Talstrike',
+    metricsData: [
+      { icon: '/images/usability.png', count: '85%', description: 'usability' },
+      { icon: '/images/remark.png', count: '4.8', description: 'remark' },
+      {
+        icon: '/images/activeUser.png',
+        count: '10k',
+        description: 'active users',
+      },
+    ],
+
+    link: 'https://www.figma.com/deck/SBpZq3x7SQfQiw9iSTvgx1/Talstrike-case-study-presentation?node-id=1-9674&node-type=slide&t=pnig65xOR9ug5LbA-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1',
+  },
+  {
+    id: 2,
+    images: '/images/cardTwo.png',
+    company: 'Heritage Estate',
+    metricsData: [
+      { icon: '/images/usability.png', count: '85%', description: 'usability' },
+      { icon: '/images/remark.png', count: '4.6', description: 'remark' },
+      {
+        icon: '/images/activeUser.png',
+        count: '15k',
+        description: 'active users',
+      },
+    ],
+
+    link: 'https://mern-real-estate-project.onrender.com/',
+  },
+
+  {
+    id: 3,
+    images: '/images/cardOne.png',
+    company: 'Swiftpoint',
+    metricsData: [
+      { icon: '/images/usability.png', count: '70%', description: 'usability' },
+      { icon: '/images/remark.png', count: '4.5', description: 'remark' },
+      {
+        icon: '/images/activeUser.png',
+        count: '10k',
+        description: 'active users',
+      },
+    ],
+
+    link: 'https://www.figma.com/deck/SBpZq3x7SQfQiw9iSTvgx1/Talstrike-case-study-presentation?node-id=1-9674&node-type=slide&t=pnig65xOR9ug5LbA-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1',
+  },
+];
