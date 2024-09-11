@@ -10,7 +10,7 @@ import { useRouter } from 'next/navigation';
 const CaseStudyCard = () => {
   const router = useRouter();
   return (
-    <div className="flex justify-between gap-8 mb-[10%]">
+    <div className="flex flex-col md:flex-row justify-between gap-8 mb-[10%]">
       {projectCards.map((item) => (
         <div key={item.id} className="mt-[5%] pb-8 bg-white shadow-lg">
           <Image src={item.images} alt="images" width={422} height={317} />
