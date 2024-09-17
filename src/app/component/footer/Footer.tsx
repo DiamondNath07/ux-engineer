@@ -2,8 +2,10 @@
 import Image from 'next/image';
 import React from 'react';
 import Button from '../button';
+import { useRouter } from 'next/navigation';
 
 const Footer = () => {
+  const router = useRouter();
   return (
     <div
       style={{
@@ -33,8 +35,10 @@ const Footer = () => {
               <div className=" mt-[8%] md:mt-[4%]">
                 <Button
                   label="Get in touch"
-                  onClick={() => console.log('great')}
                   width="w-[100%]"
+                  onClick={() =>
+                    router.push('mailto:diamondnathaniel2@gmail.com')
+                  }
                 />
               </div>
             </div>
@@ -45,26 +49,46 @@ const Footer = () => {
                 <h3 className="text-base text-black font-medium">
                   Case studies
                 </h3>
-                <ul className="flex flex-col text-center md:text-left mt-[2%] font-normal leading-normal text-sm">
-                  <li>Talstrike</li>
-                  <li>SwiftPoint</li>
-                  <li>Vitality Org</li>
+                <ul className="flex flex-col text-center md:text-left mt-[2%] font-normal leading-normal text-sm gap-2 cursor-pointer">
+                  <li>
+                    <a href="/casestudies">Talstrike</a>
+                  </li>
+                  <li>
+                    <a href="/casestudies">SwiftPoint</a>
+                  </li>
+                  <li>
+                    {' '}
+                    <a href="/casestudies">Vitality Org</a>
+                  </li>
                 </ul>
               </div>
               <div className="mt-[20%] md:mt-0">
                 <h3 className="text-base text-black font-medium">
                   Social links
                 </h3>
-                <ul className="flex flex-col mt-[2%] font-normal leading-normal text-sm text-center md:text-left">
-                  <li>Linkedin</li>
-                  <li>Behance</li>
-                  <li>Twitter</li>
+                <ul className="flex flex-col mt-[2%] font-normal leading-normal text-sm text-center md:text-left gap-2 cursor-pointer">
+                  <li>
+                    <a href="https://www.linkedin.com/in/diamond-nathaniel-6b664b245/">
+                      Linkedin
+                    </a>
+                  </li>
+                  <li>
+                    {' '}
+                    <a href="https://www.behance.net/nathanieldiamond"></a>
+                    Behance
+                  </li>
+                  <li>
+                    <a href="https://x.com/nathanield16564">Twitter</a>
+                  </li>
                 </ul>
               </div>
               <div className="mt-[20%] md:mt-0 flex flex-col items-center justify-center md:justify-start md:items-start ">
                 <h3 className="text-base text-black font-medium">Contact</h3>
-                <ul className="flex flex-col mt-[2%] font-normal leading-normal text-sm">
-                  <li>diamondnathaniel2@gmail.com</li>
+                <ul className="flex flex-col mt-[2%] font-normal leading-normal text-sm cursor-pointer">
+                  <li>
+                    <a href="mailto:diamondnathaniel2@gmail.com"></a>
+                    diamondnathaniel2@gmail.com
+                  </li>
                 </ul>
               </div>
             </div>

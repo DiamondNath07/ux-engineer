@@ -9,7 +9,7 @@ export const navLinks = [
   {
     id: 4,
     name: 'Contact',
-    link: 'https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox',
+    link: 'mailto:diamondnathaniel2@gmail.com',
   },
 ];
 export const cardContent = [
@@ -20,7 +20,7 @@ export const cardContent = [
     description:
       'Underpinned by Open Banking technology and robust consumer authentication, our solution allows merchants to securely accept payments, minimize fraud, and reduce processing fees. It also enables consumers to make secure payments both online and offline through our innovative payment app. We are transforming the payment experience for merchants and consumers with our cutting-edge payment platform.Powered by Open Banking technology and robust consumer authentication, our solution empowers merchants to securely accept payments while minimizing fraud and reducing processing fees.For consumers, our innovative payment app enables secure transactions both online and offline, offering convenience and peace of mind.We are revolutionizing the payment experience for both merchants and consumers through our cutting-edge payment platform.',
     image: './images/company1.png',
-    link: '/casestudies/wollette',
+    link: '/casestudies',
   },
 
   {
@@ -30,7 +30,7 @@ export const cardContent = [
     description:
       'Underpinned by Open Banking technology and robust consumer authentication, our solution allows merchants to securely accept payments, minimize fraud, and reduce processing fees.It also enables consumers to make secure payments both online and offline through our innovative payment app. We are transforming the payment experience for merchants and consumers with our cutting-edge payment platform.Powered by Open Banking technology and robust consumer authentication, our solution empowers merchants to securely accept payments while minimizing fraud and reducing processing fees.For consumers, our innovative payment app enables secure transactions both online and offline, offering convenience and peace of mind.We are revolutionizing the payment experience for both merchants and consumers through our cutting-edge payment platform.',
     image: './images/company3.png',
-    link: '/casestudies/talstrike',
+    link: '/casestudies',
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ export const cardContent = [
     description:
       'Underpinned by Open Banking technology and robust consumer authentication, our solution allows merchants to securely accept payments, minimize fraud, and reduce processing fees.It also enables consumers to make secure payments both online and offline through our innovative payment app. We are transforming the payment experience for merchants and consumers with our cutting-edge payment platform.Powered by Open Banking technology and robust consumer authentication, our solution empowers merchants to securely accept payments while minimizing fraud and reducing processing fees.For consumers, our innovative payment app enables secure transactions both online and offline, offering convenience and peace of mind.We are revolutionizing the payment experience for both merchants and consumers through our cutting-edge payment platform.',
     image: './images/company2.png',
-    link: '/casestudies/swiftpoint',
+    link: '/casestudies',
   },
   {
     id: 4,
@@ -48,7 +48,7 @@ export const cardContent = [
     description:
       'Underpinned by Open Banking technology and robust consumer authentication, our solution allows merchants to securely accept payments, minimize fraud, and reduce processing fees.It also enables consumers to make secure payments both online and offline through our innovative payment app. We are transforming the payment experience for merchants and consumers with our cutting-edge payment platform.Powered by Open Banking technology and robust consumer authentication, our solution empowers merchants to securely accept payments while minimizing fraud and reducing processing fees.For consumers, our innovative payment app enables secure transactions both online and offline, offering convenience and peace of mind.We are revolutionizing the payment experience for both merchants and consumers through our cutting-edge payment platform.',
     image: './images/company4.png',
-    link: '/casestudies/vitality',
+    link: '/casestudies',
   },
 ];
 

@@ -2,9 +2,11 @@
 
 import React, { useEffect, useState } from 'react';
 import Button from '../button';
+import { useRouter } from 'next/navigation';
 
 const Hero = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const router = useRouter();
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -25,8 +27,8 @@ const Hero = () => {
             isVisible ? 'opacity-100' : 'opacity-0'
           }`}
         >
-          Living in Newcastle, designing features for Quickteller mobile
-          payments using Open Banking systems.
+          Living in Newcastle, designed features for Quickteller mobile payments
+          using Open Banking systems.
         </p>
         <p
           className={`text-[#525560] text-justify md:text-left md:text-base  mt-2 transition-opacity duration-1500 ${
@@ -41,7 +43,11 @@ const Hero = () => {
             isVisible ? 'opacity-100' : 'opacity-0'
           } md:mt-2 transition-opacity duration-2000 flex justify-center items-center md:justify-normal md:items-start mt-5`}
         >
-          <Button label="Get in touch" width="70%" />
+          <Button
+            label="Get in touch"
+            width="70%"
+            onClick={() => router.push('mailto:diamondnathaniel2@gmail.com')}
+          />
         </div>
       </div>
       <div>
