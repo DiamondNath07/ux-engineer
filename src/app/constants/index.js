@@ -4,7 +4,7 @@ export const navLinks = [
   {
     id: 3,
     name: 'Resume',
-    link: 'https://drive.google.com/file/d/16d0ygd9IyQ65V0wAom-7DzGMvnS8AIsq/view?usp=sharing',
+    link: 'https://docs.google.com/document/d/1EfCVbvygXVthmvb4MitXdpVv4h4_dqD1vMSLRJ4yYLE/edit?usp=sharing',
   },
   {
     id: 4,
