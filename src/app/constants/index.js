@@ -15,6 +15,25 @@ export const navLinks = [
 export const cardContent = [
   {
     id: 1,
+    companyName: 'Swiftpoint',
+    project: 'Fintech bill payment application',
+    description:
+      'Created a globally trusted platform that offers seamless currency exchange, swift and secure transactions, and an intuitive user experience. We strive to provide competitive rates, robust security, and an app environment tailored to user needs, ensuring every transaction is efficient, safe, and aligned with our users best interests. Through innovation and user-focused design, we aim to set a new standard in financial services that empowers individuals to manage their transactions with confidence and ease, no matter where they are in the world.',
+    image: './images/company2.png',
+    link: '/casestudies',
+  },
+  {
+    id: 2,
+    companyName: 'Talstrike',
+    project: 'Sport platform application',
+    description:
+      'A platform created to seamlessly integrate the world of sports into the social media landscape, creating a dynamic platform that not only fosters talent discovery but also builds a community where athletes, coaches, and sports enthusiasts feel truly connected. By leveraging social media vast reach, we aim to spotlight emerging talent and provide a space where sports practitioners can engage with one another, share insights, and showcase their skills. Additionally, the platform will feature entertaining and engaging sports-related content that keeps users informed and inspired, turning social media into a virtual home for all things sports, where passion and professionalism unite.',
+    image: './images/company3.png',
+    link: '/casestudies',
+  },
+
+  {
+    id: 3,
     companyName: 'Wollette',
     project: 'Smart Mobile payment system',
     description:
@@ -24,30 +43,12 @@ export const cardContent = [
   },
 
   {
-    id: 2,
-    companyName: 'Talstrike',
-    project: 'Sport platform application',
-    description:
-      'The goal is to seamlessly integrate the world of sports into the social media landscape, creating a dynamic platform that not only fosters talent discovery but also builds a community where athletes, coaches, and sports enthusiasts feel truly connected. By leveraging social media vast reach, we aim to spotlight emerging talent and provide a space where sports practitioners can engage with one another, share insights, and showcase their skills. Additionally, the platform will feature entertaining and engaging sports-related content that keeps users informed and inspired, turning social media into a virtual home for all things sports, where passion and professionalism unite.',
-    image: './images/company3.png',
-    link: '/casestudies',
-  },
-  {
-    id: 3,
-    companyName: 'Swiftpoint',
-    project: 'Fintech bill payment application',
-    description:
-      'Our vision is to create a globally trusted platform that offers seamless currency exchange, swift and secure transactions, and an intuitive user experience. We strive to provide competitive rates, robust security, and an app environment tailored to user needs, ensuring every transaction is efficient, safe, and aligned with our users best interests. Through innovation and user-focused design, we aim to set a new standard in financial services that empowers individuals to manage their transactions with confidence and ease, no matter where they are in the world.',
-    image: './images/company2.png',
-    link: '/casestudies',
-  },
-  {
     id: 4,
-    companyName: 'Vitality Org',
-    project: 'Telehealth medical organisation',
+    companyName: 'Heritage Properties',
+    project: 'A dynamic housing system',
     description:
-      'To create an inclusive telehealth platform that empowers and supports individuals across the gender spectrum by providing compassionate, accessible, and affirming healthcare services. We are committed to fostering a safe and welcoming environment where all members of the gender-diverse community feel seen, heard, and respected. Through personalized care, experienced professionals, and a deep understanding of unique healthcare needs, we aim to break down barriers and ensure that every person can access high-quality healthcare with dignity and without judgment. Our goal is to promote well-being and acceptance for everyone, regardless of their gender identity or expression.',
-    image: './images/company4.png',
+      'The housing project offers a unique blend of modern architecture and eco-friendly design, featuring spacious layouts with smart home technology. Nestled in a prime location, it boasts stunning views, access to green spaces, and energy-efficient amenities. With its sustainable building materials and luxurious finishes, this property stands out as a perfect balance between luxury and environmental consciousness.',
+    image: './images/heritageEstate.png',
     link: '/casestudies',
   },
 ];
@@ -110,6 +111,22 @@ export const cardSlider = [
 export const projectCards = [
   {
     id: 1,
+    images: '/images/cardOne.png',
+    company: 'Swiftpoint',
+    metricsData: [
+      { icon: '/images/usability.png', count: '70%', description: 'usability' },
+      { icon: '/images/remark.png', count: '4.5', description: 'remark' },
+      {
+        icon: '/images/activeUser.png',
+        count: '10k',
+        description: 'active users',
+      },
+    ],
+
+    link: 'https://www.figma.com/deck/iL1Ofp5eXm5EunItQS7rRd/Swiftpoint-casestudy?node-id=1-536&node-type=slide&t=6Z9TdF5dmDQdAvJA-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1',
+  },
+  {
+    id: 2,
     images: '/images/cardThree.png',
     company: 'Talstrike',
     metricsData: [
@@ -125,7 +142,7 @@ export const projectCards = [
     link: 'https://www.figma.com/deck/SBpZq3x7SQfQiw9iSTvgx1/Talstrike-case-study-presentation?node-id=1-9674&node-type=slide&t=pnig65xOR9ug5LbA-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1',
   },
   {
-    id: 2,
+    id: 3,
     images: '/images/cardTwo.png',
     company: 'Heritage Estate',
     metricsData: [
@@ -139,22 +156,5 @@ export const projectCards = [
     ],
 
     link: 'https://mern-real-estate-project.onrender.com/',
-  },
-
-  {
-    id: 3,
-    images: '/images/cardOne.png',
-    company: 'Swiftpoint',
-    metricsData: [
-      { icon: '/images/usability.png', count: '70%', description: 'usability' },
-      { icon: '/images/remark.png', count: '4.5', description: 'remark' },
-      {
-        icon: '/images/activeUser.png',
-        count: '10k',
-        description: 'active users',
-      },
-    ],
-
-    link: 'https://www.figma.com/deck/SBpZq3x7SQfQiw9iSTvgx1/Talstrike-case-study-presentation?node-id=1-9674&node-type=slide&t=pnig65xOR9ug5LbA-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1',
   },
 ];
