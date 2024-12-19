@@ -27,8 +27,8 @@ const Hero = () => {
             isVisible ? 'opacity-100' : 'opacity-0'
           }`}
         >
-          Living in Newcastle, designed features for Quickteller mobile payments
-          using Open Banking systems.
+          Living in Sheffield, designed features for mobile payment platforms
+          utilizing Open Banking systems.
         </p>
         <p
           className={`text-[#525560] text-justify md:text-left md:text-base  mt-2 transition-opacity duration-1500 ${

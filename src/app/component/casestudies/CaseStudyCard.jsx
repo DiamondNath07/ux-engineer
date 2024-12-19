@@ -11,7 +11,7 @@ const CaseStudyCard = () => {
   const router = useRouter();
   return (
     <div className="flex flex-col md:flex-row justify-between gap-8 mb-[10%] ">
-      {projectCards.map((item) => (
+      {projectCards.map((item, index) => (
         <div
           key={item.id}
           className="mt-[5%] pb-8  rounded-2xl overflow-hidden shadow-md"
@@ -38,10 +38,20 @@ const CaseStudyCard = () => {
           </div>
           <div className="mt-4 w-full flex justify-center items-center px-[3%]">
             <button
-              onClick={() => router.push(item.link)}
-              className="capitalize bg-[#1D2130] hover:bg-[#525560] text-white  px-8 py-3 rounded-md cursor-pointer w-full"
+              onClick={() => {
+                const url =
+                  index === 0
+                    ? 'https://www.figma.com/deck/iL1Ofp5eXm5EunItQS7rRd/Swiftpoint-casestudy?node-id=1-536&node-type=slide&t=6Z9TdF5dmDQdAvJA-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1'
+                    : index === 1
+                    ? 'https://devapp.talstrike.com'
+                    : index === 2
+                    ? 'https://mern-real-estate-project.onrender.com/'
+                    : '/default-url';
+                router.push(url);
+              }}
+              className="capitalize bg-[#1D2130] hover:bg-[#525560] text-white px-8 py-3 rounded-md cursor-pointer w-full"
             >
-              view case study
+              {index === 0 ? 'View Case Study' : 'See project'}
             </button>
           </div>
         </div>

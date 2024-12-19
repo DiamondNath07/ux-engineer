@@ -13,8 +13,8 @@ const WorkExperience = () => {
             Recent companies I have worked with
           </h1>
           <p className="text-white text-sm md:text-base text-justify md:text-left md:max-w-[80%] mt-2 md:mt-4 font-normal leading-normal">
-            I bring over 8 years of experience as a product designer,
-            specializing in creating intuitive user interfaces that address
+            I bring over 5 years of experience as a product designer,
+            specializing in crafting intuitive user interfaces that solve
             complex business challenges.
           </p>
           <div className="border-l-2 border-white mt-[10%] md:mt-[5%] pl-[2%]">

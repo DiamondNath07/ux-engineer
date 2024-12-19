@@ -31,7 +31,7 @@ const Navbar = ({ borderColor = '#929292' }) => {
           height={25}
           className="smooth-blinking-image"
         />
-        <p className="text-[#525560]">Accepting new clients</p>
+        <p className="text-[#525560]">Available for work</p>
       </div>
       <div className="hidden md:block">
         <ul className="flex flex-row list-none justify-center text-[#525560] text-base ">

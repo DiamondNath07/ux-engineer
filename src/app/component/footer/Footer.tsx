@@ -51,14 +51,9 @@ const Footer = () => {
                 </h3>
                 <ul className="flex flex-col text-center md:text-left mt-[2%] font-normal leading-normal text-sm gap-2 cursor-pointer">
                   <li>
-                    <a href="/casestudies">Talstrike</a>
-                  </li>
-                  <li>
-                    <a href="/casestudies">SwiftPoint</a>
-                  </li>
-                  <li>
-                    {' '}
-                    <a href="/casestudies">Vitality Org</a>
+                    <a href="https://www.figma.com/deck/iL1Ofp5eXm5EunItQS7rRd/Swiftpoint-casestudy?node-id=1-536&node-type=slide&t=6Z9TdF5dmDQdAvJA-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1">
+                      Swiftpoint
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -71,14 +66,6 @@ const Footer = () => {
                     <a href="https://www.linkedin.com/in/diamond-nathaniel-6b664b245/">
                       Linkedin
                     </a>
-                  </li>
-                  <li>
-                    {' '}
-                    <a href="https://www.behance.net/nathanieldiamond"></a>
-                    Behance
-                  </li>
-                  <li>
-                    <a href="https://x.com/nathanield16564">Twitter</a>
                   </li>
                 </ul>
               </div>

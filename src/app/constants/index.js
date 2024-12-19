@@ -1,5 +1,5 @@
 export const navLinks = [
-  { id: 1, name: 'Case studies', link: '/casestudies' },
+  { id: 1, name: 'projects', link: '/projects' },
   { id: 2, name: 'Experience', link: '/experience' },
   {
     id: 3,
@@ -56,12 +56,13 @@ export const cardContent = [
 export const workRecordData = [
   {
     id: 1,
-    logo: './images/Icon1.png',
-    name: 'QuickTeller',
-    position: 'Interaction Designer',
-    role1: '☑️ Designed mobile payments flow for quick bill settlement',
+    logo: './images/Icon4.png',
+    name: 'Talstrike',
+    position: 'Senior Product Designer',
+    role1:
+      '☑️ Created business model through a UX case-study with business stakeholder and created business roadmap for design implementation.',
     role2:
-      '☑️ Designed merchant dashboard for co-businesses integrating Quickteller services for facilitating payments',
+      '☑️ Designed a fully responsive application for users and a scalable design system following the brand theme.',
   },
   {
     id: 2,
@@ -69,27 +70,27 @@ export const workRecordData = [
     name: 'Wollette',
     position: 'Product Designer',
     role1:
-      '☑️ Designed a smart payment medium platform for cheaper transactions between clients and customers.',
+      '☑️ Designed business landing page for merchants, customers and visitors to better understand the product',
     role2:
       '☑️ Implemented a motion infographic design for illustrating how to use the payment platform.',
   },
   {
     id: 3,
+    logo: './images/alsoit.io.png',
+    name: 'Also Software Group',
+    position: 'Senior Product Designer',
+    role1:
+      '☑️ Directed the design team and trained interns in visual and interaction design principles, closely monitoring their progress.',
+    role2:
+      '☑️ Developed and published a comprehensive design system with reusable components through shared libraries. ',
+  },
+  {
+    id: 4,
     logo: './images/Icon3.png',
     name: 'SwiftPoint',
     position: 'Senior Product Designer',
     role1:
       '☑️ Designed a seamless platform for bills payment and an intuitive user interface for currency exchange.',
-    role2:
-      '☑️ Designed a fully responsive application for users and a scalable design system following the brand theme.',
-  },
-  {
-    id: 4,
-    logo: './images/Icon4.png',
-    name: 'Talstrike',
-    position: 'Senior Product Designer',
-    role1:
-      '☑️ Created business model through a UX case-study with business stakeholder and created business roadmap for design implementation.',
     role2:
       '☑️ Designed a fully responsive application for users and a scalable design system following the brand theme.',
   },

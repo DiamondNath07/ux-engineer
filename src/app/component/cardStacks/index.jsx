@@ -13,10 +13,6 @@ const CardStacks = () => {
       router.push(
         'https://www.figma.com/deck/iL1Ofp5eXm5EunItQS7rRd/Swiftpoint-casestudy?node-id=1-536&node-type=slide&t=6Z9TdF5dmDQdAvJA-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1'
       );
-    } else if (index === 1) {
-      router.push(
-        'https://www.figma.com/deck/SBpZq3x7SQfQiw9iSTvgx1/Talstrike-case-study-presentation?node-id=1-9674&node-type=slide&t=pnig65xOR9ug5LbA-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1'
-      );
     } else {
       console.log('coming soon');
     }
@@ -51,7 +47,7 @@ const CardStacks = () => {
                 </p>
                 <div className="mt-4 hidden md:block">
                   <Button
-                    label={index > 1 ? 'coming soon' : 'View case study'}
+                    label={index > 0 ? 'coming soon' : 'View case study'}
                     onClick={() => handleCaseStudy(index)}
                   />
                 </div>
@@ -66,7 +62,7 @@ const CardStacks = () => {
                 />
                 <div className="mt-8 mb-6 md:hidden">
                   <Button
-                    label={index > 1 ? 'coming soon' : 'View case study'}
+                    label={index > 0 ? 'coming soon' : 'View case study'}
                     text="sm"
                     px={2}
                     py={3}
