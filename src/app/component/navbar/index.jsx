@@ -79,10 +79,14 @@ const Navbar = ({ borderColor = '#929292' }) => {
                   setShowModal(false);
                 }}
               />
-              <ul className="flex flex-col pt-10 gap-10">
+              <ul className="flex flex-col pt-10 gap-10 w-full ">
                 {navLinks.map((link) => (
-                  <li key={link.id} className="animate-fade-in">
-                    <a href={link.link} className="text-[#525560]">
+                  <li
+                    onClick={() => router.push(link.link)}
+                    key={link.id}
+                    className="animate-fade-in w-full"
+                  >
+                    <a href={link.link} className="text-[#525560] w-full">
                       {link.name}
                     </a>
                   </li>
