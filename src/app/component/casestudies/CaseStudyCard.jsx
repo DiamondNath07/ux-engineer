@@ -43,7 +43,7 @@ const CaseStudyCard = () => {
                   index === 0
                     ? 'https://www.figma.com/deck/iL1Ofp5eXm5EunItQS7rRd/Swiftpoint-casestudy?node-id=1-536&node-type=slide&t=6Z9TdF5dmDQdAvJA-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1'
                     : index === 1
-                    ? 'https://devapp.talstrike.com'
+                    ? 'https://talstrike.com'
                     : index === 2
                     ? 'https://mern-real-estate-project.onrender.com/'
                     : '/default-url';
